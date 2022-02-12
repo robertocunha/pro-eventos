@@ -9,7 +9,6 @@ import { Component, OnInit } from '@angular/core';
 export class EventosComponent implements OnInit {
 
   public eventos: any;
-  public teste: any = 'teste';
 
   constructor(private http: HttpClient) { }
 
@@ -23,5 +22,4 @@ export class EventosComponent implements OnInit {
       error => console.log(error)
     );
   }
-
 }
